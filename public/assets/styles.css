@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+body {
+    background: #474747;
+    margin: 0;
+    padding: 0;
+}
+#flex{
+    display: block;
+    margin: auto;
+}
+
+.info{
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#ban{
+    height: 200px;
+    background: url("photos/labyrinthe.jpg") center;
+    background-size: cover;
+}
+.navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.bg-dark{
+    background-color: royalblue !important;
+}
+nav {
+    background: #000;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: royalblue;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    color: white;
+}
+footer a{
+    color: white;
+}
+
+#afficherJoueurs{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+#joueur{
+    display: table-cell;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #878787;
+    color: white;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    #afficherJoueurs{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width: 500px){
+    #afficherJoueurs{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+#joueur img{
+    width: 80px;
+}
+
+.enigme{
+    background-color: #8c8b8d;
+    color: white;
+    margin: auto 8%;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.info a{
+    color: white;
+}
+
+.info img{
+    width: 180px;
+}
+
+input {
+    color: black;
+}
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
