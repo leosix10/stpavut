@@ -7,6 +7,7 @@ Réalisation d'un jeu où le participant doit résoudre des énigmes. Ce projet 
 
 La Base de données à importer se trouve dans le dossier `conf`.
 Veuillez configurer votre URL dans `app/Config/App.php` et vos identifiants pour se connecter à la base de données dans `app/Config/Database.php`.
+Les identifiants du back-office sont à modifier dans `app/Controllers/Gestion.php`.
 Pour pouvoir afficher les messages d'erreurs que renvoie l'appli, modifier le fichier `.env` et remplacer `production` par `development`.
 
 Vous pouvez suivre la mise en place du projet (bien plus complet) grâce au fichier PDF `Saint Pavut Projet.pdf` présent à la racine qui renvoie vers des vidéos explicatives.

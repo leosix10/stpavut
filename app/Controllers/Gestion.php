@@ -47,7 +47,7 @@ class Gestion extends Controller
         // ************ secu pour le mode dev!!!
         if(!isset($_POST['username'])||!isset($_POST['pass'])) return;
         // ************
-        if ($_POST['username'] == "admin" && $_POST['pass'] == "leosixm3202"){
+        if ($_POST['username'] == "admin" && $_POST['pass'] == "admin"){
             $this->mesSessions->admin = 1;
             return redirect()->to(base_url().'/Gestion/AccueilAdmin');
         } else {
